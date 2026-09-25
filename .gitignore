@@ -1,0 +1,15 @@
+# Third-party binaries. fetch-windows-assets.ps1 downloads pinned releases.
+windows_exporter-*.exe
+windows_exporter-*.msi
+LibreHardware/
+LibreHardware.bak-*/
+nssm-2.24/
+
+# Optional Microsoft offline installers. See prereqs/README.txt.
+prereqs/*.exe
+prereqs/*.msu
+
+# Installer and diagnostic logs
+install-log-*.txt
+diag-sensors-*.txt
+*.partial

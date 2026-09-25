@@ -1,0 +1,36 @@
+green-exporter-autoinstall
+Copyright 2026 green
+
+The scripts in this repository are licensed under the Apache License 2.0.
+See the LICENSE file.
+
+Third-party programs below are not part of this source tree. Installers
+download pinned releases, or use copies placed next to the scripts for an
+offline run. Each component stays under its own license.
+
+windows_exporter 0.24.0 and 0.31.8
+  https://github.com/prometheus-community/windows_exporter
+  Apache License 2.0
+
+node_exporter
+  https://github.com/prometheus/node_exporter
+  Apache License 2.0
+  Downloaded by install-linux.sh
+
+ipmi_exporter
+  https://github.com/prometheus-community/ipmi_exporter
+  Apache License 2.0
+  Downloaded by install-linux.sh
+
+dcgm-exporter
+  https://github.com/NVIDIA/dcgm-exporter
+  Apache License 2.0
+  Pulled as a container image by install-linux.sh
+
+LibreHardwareMonitor 0.9.4
+  https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+  Mozilla Public License 2.0
+
+NSSM 2.24
+  https://nssm.cc/
+  Public domain
